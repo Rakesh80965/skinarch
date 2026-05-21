@@ -8,7 +8,6 @@ const LINKS = [
   { href: '#treatments', label: 'Treatments' },
   { href: '#doctors', label: 'Doctors' },
   { href: '#results', label: 'Results' },
-  { href: '#faq', label: 'FAQ' },
   { href: '#visit', label: 'Visit' },
 ];
 
@@ -16,7 +15,9 @@ export function MobileNav({ open, onClose }: Props) {
   return (
     <aside className={`mnav ${open ? 'open' : ''} fixed inset-0 z-50 bg-bg pt-6 px-6 overflow-y-auto`}>
       <div className="flex items-center justify-between mb-10">
-        <span className="font-serif italic text-2xl">skin arch.</span>
+        <span className="text-[22px] font-semibold tracking-[-0.02em]">
+          skin arch<span className="text-accent">.</span>
+        </span>
         <button
           onClick={onClose}
           className="w-10 h-10 rounded-full border border-line grid place-items-center"

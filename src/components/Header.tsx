@@ -9,7 +9,6 @@ const NAV = [
   { href: '#treatments', label: 'Treatments' },
   { href: '#doctors', label: 'Doctors' },
   { href: '#results', label: 'Results' },
-  { href: '#faq', label: 'FAQ' },
   { href: '#visit', label: 'Visit' },
 ];
 
@@ -22,7 +21,9 @@ export function Header({ onOpenMenu }: Props) {
     >
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 py-4 flex items-center justify-between">
         <a href="#top" className="flex items-baseline gap-1.5">
-          <span className="font-serif italic text-2xl tracking-tight">skin arch.</span>
+          <span className="text-[22px] font-semibold tracking-[-0.02em] leading-none">
+            skin arch<span className="text-accent">.</span>
+          </span>
           <span className="hidden sm:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
           <span className="hidden sm:inline text-[11px] tracking-[0.18em] uppercase text-inksoft">
             Hyderabad

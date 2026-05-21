@@ -19,7 +19,7 @@ export function Marquee() {
   return (
     <section aria-hidden="true" className="border-y border-line bg-white/40">
       <div className="marquee py-4">
-        <div className="marquee__track text-inksoft font-serif italic text-2xl md:text-[28px]">
+        <div className="marquee__track text-inksoft font-serif text-2xl md:text-[28px]">
           <Track />
           <Track ariaHidden />
         </div>

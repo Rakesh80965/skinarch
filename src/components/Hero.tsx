@@ -5,17 +5,17 @@ export function Hero() {
         <div className="lg:col-span-7 reveal">
           <div className="eyebrow mb-6 flex items-center gap-3">
             <span className="w-8 h-px bg-ink" />
-            Dermatology · Trichology · Aesthetics
+            Skin · Hair · Aesthetics
           </div>
           <h1 className="display h-hero">
-            Where skin meets <em className="italic font-normal text-accentdp">science,</em>
+            Where skin meets <em className="font-normal text-accentdp">science,</em>
             <br />
             and finds calm.
           </h1>
           <p className="mt-7 max-w-xl text-inksoft text-[17px] leading-relaxed">
-            At Skin Arch, Dr. B. Ashwini and team treat skin and hair the way they ought to be
-            treated — with evidence, patience, and a plan that fits one person at a time. Twelve
-            years of practice. No upselling. No templates.
+            Dermatology that listens before it prescribes. Skin Arch is a Kukatpally
+            clinic for skin, hair and aesthetics — small, well-equipped, and built
+            around one idea: diagnose first, treat second, sell never.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#book" className="btn btn-primary">

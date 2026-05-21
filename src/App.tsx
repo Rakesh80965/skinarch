@@ -8,9 +8,9 @@ import { About } from './components/About';
 import { Treatments } from './components/Treatments';
 import { WhySkinArch } from './components/WhySkinArch';
 import { Doctors } from './components/Doctors';
+import { InsideClinic } from './components/InsideClinic';
 import { Results } from './components/Results';
 import { Process } from './components/Process';
-import { Faq } from './components/Faq';
 import { Booking } from './components/Booking';
 import { Visit } from './components/Visit';
 import { Footer } from './components/Footer';
@@ -34,9 +34,9 @@ export default function App() {
         <Treatments />
         <WhySkinArch />
         <Doctors />
+        <InsideClinic />
         <Results />
         <Process />
-        <Faq />
         <Booking />
         <Visit />
       </main>

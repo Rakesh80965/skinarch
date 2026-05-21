@@ -13,12 +13,12 @@ export function Treatments() {
           <div>
             <div className="eyebrow mb-5">Our services</div>
             <h2 className="display h-section">
-              Treatments, <em className="italic font-normal text-accentdp">tailored.</em>
+              Treatments, <em className="font-normal text-accentdp">tailored.</em>
             </h2>
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
-            From everyday concerns like acne and pigmentation to advanced procedures — every plan is
-            built around what your skin actually needs.
+            Skin, hair and aesthetics — from everyday concerns to advanced procedures.
+            Every plan is built around what you actually need, in the order that makes sense.
           </p>
         </div>
 

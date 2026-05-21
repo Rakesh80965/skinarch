@@ -22,7 +22,7 @@ export const BEFORE_AFTER: BeforeAfter[] = [
   },
   {
     label: 'Open pores · 10 wks',
-    before: 'https://images.unsplash.com/photo-1611205502833-c70a4f49adb2?w=900&q=80&auto=format&fit=crop',
+    before: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
     after: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&q=80&auto=format&fit=crop',
   },
   {

@@ -6,7 +6,6 @@ const COLS = [
       ['Treatments', '#treatments'],
       ['Doctors', '#doctors'],
       ['Results', '#results'],
-      ['FAQ', '#faq'],
       ['Visit', '#visit'],
     ],
   },
@@ -27,10 +26,12 @@ export function Footer() {
     <footer className="bg-espresso text-[#C9BFB1] pt-20 pb-10">
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
-          <div className="font-serif italic text-[#F4EFE5] text-3xl">skin arch.</div>
+          <div className="text-[#F4EFE5] text-[28px] font-semibold tracking-[-0.02em]">
+            skin arch<span className="text-accent">.</span>
+          </div>
           <p className="mt-4 max-w-sm text-[14.5px]">
-            Science-backed skin. Quietly confident results. A dermatology and aesthetics clinic in
-            Kukatpally, Hyderabad.
+            Skin, hair and aesthetics — a dermatology clinic in Kukatpally, Hyderabad.
+            Careful diagnosis, considered care, quietly confident results.
           </p>
           <div className="mt-8 flex items-center gap-2">
             <a

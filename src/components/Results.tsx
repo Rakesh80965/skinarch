@@ -21,7 +21,7 @@ export function Results() {
           <div>
             <div className="eyebrow mb-5">Results</div>
             <h2 className="display h-section">
-              Quiet, <em className="italic font-normal text-accentdp">visible</em> results.
+              Quiet, <em className="font-normal text-accentdp">visible</em> results.
             </h2>
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
@@ -43,7 +43,7 @@ export function Results() {
             <svg className="absolute -left-2 top-6 w-16 h-16 text-ink/15" viewBox="0 0 32 32" fill="currentColor" aria-hidden>
               <path d="M9.5 8c-3 0-5.5 2.4-5.5 5.5 0 3 2.4 5.4 5.4 5.4.6 0 .9.4.7 1-1 2.6-2.8 4.2-4.1 5-.6.4-.3 1.4.4 1.3 5.4-.9 9.7-5.4 9.7-12.1C16.1 10.5 13.2 8 9.5 8zm14 0c-3 0-5.5 2.4-5.5 5.5 0 3 2.4 5.4 5.4 5.4.6 0 .9.4.7 1-1 2.6-2.8 4.2-4.1 5-.6.4-.3 1.4.4 1.3 5.4-.9 9.7-5.4 9.7-12.1C30.1 10.5 27.2 8 23.5 8z" />
             </svg>
-            <p className="font-serif italic text-[clamp(1.6rem,3.2vw,2.6rem)] leading-[1.2] max-w-4xl relative">
+            <p className="font-serif text-[clamp(1.6rem,3.2vw,2.6rem)] leading-[1.2] max-w-4xl relative">
               I came in for one persistent patch of pigmentation. I left with a three-product plan
               and a clear timeline. Six weeks later, the patch is almost gone — and I haven't bought
               a single thing I didn't need.

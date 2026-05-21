@@ -1,6 +1,6 @@
 import type { IconKey } from './icons';
 
-export type TreatmentTab = 'skin' | 'hair' | 'body';
+export type TreatmentTab = 'skin' | 'hair' | 'clinical';
 
 export interface Treatment {
   icon: IconKey;
@@ -10,66 +10,66 @@ export interface Treatment {
 }
 
 export const TAB_LABELS: Record<TreatmentTab, string> = {
-  skin: 'Skin',
+  skin: 'Skin & Nail',
   hair: 'Hair',
-  body: 'Body & Surgical',
+  clinical: 'Clinical & Surgical',
 };
 
 export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
   skin: [
     {
       icon: 'pulse',
-      title: 'Acne & Acne Scars',
-      desc: 'From persistent breakouts to deep scarring — peels, lasers, micro-needling.',
+      title: 'Acne, Spots & Acne Scars',
+      desc: 'From active breakouts to lingering spots and scars — peels, lasers and micro-needling.',
       img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'sliders',
-      title: 'Pigmentation & Melasma',
-      desc: 'Topical, oral and gentle laser protocols tailored to Indian skin tones.',
+      title: 'Uneven Skin, Dullness & Melasma',
+      desc: 'Brightening regimens and gentle laser protocols tailored to Indian skin tones.',
       img: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'syringe',
-      title: 'Anti-Aging',
-      desc: 'Botox, dermal fillers and thread lifts — subtle, natural, never overdone.',
+      title: 'Anti-Ageing',
+      desc: 'Subtle, natural correction — Botox, fillers and collagen-stimulating treatments.',
       img: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=900&q=80&auto=format&fit=crop',
     },
     {
-      icon: 'layers',
-      title: 'Open Pores & Texture',
-      desc: 'Combination treatments to refine and visibly smooth skin texture.',
-      img: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=900&q=80&auto=format&fit=crop',
-    },
-    {
-      icon: 'sun',
-      title: 'Uneven Skin Tone',
-      desc: 'Brightening regimens and pigment-correcting in-clinic sessions.',
-      img: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=80&auto=format&fit=crop',
-    },
-    {
       icon: 'shield',
-      title: 'Tag & Wart Removal',
+      title: 'Skin Tag & Wart Removal',
       desc: 'Radiofrequency and cryo — quick, scar-minimised, walk-in procedures.',
-      img: 'https://images.unsplash.com/photo-1559757175-08c1f15c5e29?w=900&q=80&auto=format&fit=crop',
-    },
-    {
-      icon: 'droplet',
-      title: 'Medi-Facials',
-      desc: 'Hydrafacial, carbon laser and bespoke clinical facials.',
-      img: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=80&auto=format&fit=crop',
+      img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'flask',
       title: 'Chemical Peels',
-      desc: 'Glycolic, mandelic, salicylic — graded peels for tone and texture.',
+      desc: 'Glycolic, mandelic and salicylic peels — graded for your tone and texture.',
       img: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'spark',
-      title: 'Sensitive Skin & Eczema',
-      desc: 'Calming protocols, barrier repair, and prescription care when needed.',
-      img: 'https://images.unsplash.com/photo-1611205502833-c70a4f49adb2?w=900&q=80&auto=format&fit=crop',
+      title: 'Carbon Laser Toning & Medi-Facials',
+      desc: 'Carbon laser toning, Hydrafacial and bespoke medi-facials for a clear, fresh finish.',
+      img: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'droplet',
+      title: 'Glow Drips',
+      desc: 'IV nutrient therapy — antioxidants, vitamins and skin-brightening blends, by prescription.',
+      img: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'star',
+      title: 'Permanent Tattoo Removal',
+      desc: 'Q-switched laser sessions to safely fade pigment from ink — paced for your skin.',
+      img: 'https://images.unsplash.com/photo-1567721913486-6585f069b332?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'scalpel',
+      title: 'Nail Infection & Surgery',
+      desc: 'Fungal infections, discoloration, brittle nails and ingrown-nail surgery.',
+      img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop',
     },
   ],
   hair: [
@@ -110,42 +110,60 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       img: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=900&q=80&auto=format&fit=crop',
     },
   ],
-  body: [
+  clinical: [
+    {
+      icon: 'pulse',
+      title: 'Fungal Infections',
+      desc: 'Skin and nail fungal infections — diagnosis, oral and topical antifungals, follow-up reviews.',
+      img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'spark',
+      title: 'Allergy & Urticaria',
+      desc: 'Hives, contact allergies and food-triggered reactions — diagnosis and management for persistent cases.',
+      img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'leaf',
+      title: 'Eczema',
+      desc: 'Atopic dermatitis and eczema — barrier repair, calming protocols and prescription care when needed.',
+      img: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'layers',
+      title: 'Keloid',
+      desc: 'Raised-scar treatment with intralesional injections, silicone gel sheets and laser therapy.',
+      img: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=900&q=80&auto=format&fit=crop',
+    },
     {
       icon: 'scalpel',
-      title: 'Sebaceous Cyst Excision',
-      desc: 'Daycare procedure with fine closure — minimal scarring.',
+      title: 'Mole Removal',
+      desc: 'Cosmetic and diagnostic excision of moles with fine sutures — minimal scarring.',
       img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'stitch',
-      title: 'Hemorrhoids / Piles',
-      desc: 'Stapler surgery (MIPH) — short hospital stay, faster return to work.',
-      img: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=900&q=80&auto=format&fit=crop',
-    },
-    {
-      icon: 'flask',
-      title: 'Gall Bladder Stones',
-      desc: 'Laparoscopic cholecystectomy with same-day or next-day discharge.',
-      img: 'https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=900&q=80&auto=format&fit=crop',
-    },
-    {
-      icon: 'heart',
-      title: 'Appendicitis',
-      desc: 'Emergency-trained laparoscopic appendectomy, minimal scar approach.',
-      img: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=900&q=80&auto=format&fit=crop',
-    },
-    {
-      icon: 'sliders',
-      title: 'Minimally Invasive',
-      desc: 'Daycare-friendly procedures for hernias, lipomas and more.',
+      title: 'Sebaceous Cyst Removal',
+      desc: 'Daycare excision of sebaceous cysts with complete capsule removal to prevent recurrence.',
       img: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=900&q=80&auto=format&fit=crop',
     },
     {
+      icon: 'flask',
+      title: 'Lipoma Removal',
+      desc: 'Surgical removal of benign fatty growths — local anaesthesia, daycare procedure.',
+      img: 'https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=900&q=80&auto=format&fit=crop',
+    },
+    {
       icon: 'shield',
-      title: 'Bariatric Consults',
-      desc: 'Pre-op counseling and surgical planning for medically-indicated cases.',
-      img: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=900&q=80&auto=format&fit=crop',
+      title: 'Corn Removal',
+      desc: 'Painless corn excision and aftercare — footwear and pressure-relief guidance to prevent recurrence.',
+      img: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format&fit=crop',
+    },
+    {
+      icon: 'sliders',
+      title: 'Earlobe Repair',
+      desc: 'Torn or stretched earlobes restored with fine sutures — daycare procedure, repierce after healing.',
+      img: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=900&q=80&auto=format&fit=crop',
     },
   ],
 };

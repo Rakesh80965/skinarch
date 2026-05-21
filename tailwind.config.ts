@@ -16,8 +16,10 @@ export default {
         espresso: '#221C17',
       },
       fontFamily: {
-        serif: ['Fraunces', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        // single typeface; `serif` aliased so any leftover className="font-serif"
+        // still resolves to Plus Jakarta Sans without code churn.
+        serif: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
       },
     },
   },

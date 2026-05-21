@@ -5,7 +5,7 @@ export function Visit() {
         <div className="lg:col-span-7 reveal">
           <div className="eyebrow mb-5">Visit us</div>
           <h2 className="display h-section mb-8">
-            Find us in <em className="italic font-normal text-accentdp">Kukatpally.</em>
+            Find us in <span className="text-accentdp">Kukatpally.</span>
           </h2>
           <div className="rounded-2xl overflow-hidden border border-line aspect-[4/3] bg-line">
             <iframe

@@ -17,30 +17,35 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   background: var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  font-style: normal;
 }
 .font-serif {
-  font-family: 'Fraunces', serif;
-  font-optical-sizing: auto;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
 .display {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
-  letter-spacing: -0.022em;
-  line-height: 1.02;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+  font-style: normal;
 }
 .h-hero {
   font-size: clamp(2.6rem, 6.2vw, 5.6rem);
 }
 .h-section {
-  font-size: clamp(2rem, 4.2vw, 3.5rem);
-  letter-spacing: -0.02em;
-  line-height: 1.05;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+em {
+  font-style: normal;
 }
 .eyebrow {
   font-family: 'Inter', sans-serif;
