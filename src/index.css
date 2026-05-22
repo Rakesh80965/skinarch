@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
   background: var(--bg);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
@@ -25,11 +25,11 @@ body {
   font-style: normal;
 }
 .font-serif {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
 }
 
 .display {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
   font-weight: 600;
   letter-spacing: -0.035em;
   line-height: 1.04;
