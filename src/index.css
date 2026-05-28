@@ -230,8 +230,7 @@ details.faq .answer {
   user-select: none;
   touch-action: none;
   aspect-ratio: 4 / 5;
-  background: var(--bg);
-  border: 1px solid var(--line);
+  background: #ddd;
 }
 .ba img {
   position: absolute;
