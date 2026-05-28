@@ -23,8 +23,9 @@ export function InsideClinic() {
           {hasImg ? (
             <img
               src="/clinic/front-desk.jpg"
-              alt="Skin Arch front desk and reception"
+              alt="Dr. Ashwini's Skin Arch front desk and reception"
               className="w-full h-full object-cover"
+              style={{ objectPosition: 'center 28%' }}
               onError={() => setHasImg(false)}
               loading="lazy"
             />
