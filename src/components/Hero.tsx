@@ -13,9 +13,9 @@ export function Hero() {
             and finds calm.
           </h1>
           <p className="mt-7 max-w-xl text-inksoft text-[17px] leading-relaxed">
-            Dermatology that listens before it prescribes. Skin Arch is a Kukatpally
-            clinic for skin, hair and aesthetics — small, well-equipped, and built
-            around one idea: diagnose first, treat second, sell never.
+            Dermatology that listens before it prescribes. Dr. Ashwini's Skin Arch is
+            a Kukatpally clinic for skin, hair and aesthetics — small, well-equipped,
+            and built around one idea: diagnose first, treat second, sell never.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#book" className="btn btn-primary">

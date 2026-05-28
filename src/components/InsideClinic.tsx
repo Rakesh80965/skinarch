@@ -8,7 +8,7 @@ export function InsideClinic() {
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10 reveal">
           <div>
-            <div className="eyebrow mb-5">Inside Skin Arch</div>
+            <div className="eyebrow mb-5">Inside Dr. Ashwini's Skin Arch</div>
             <h2 className="display h-section">
               Calm, well-lit, <span className="text-accentdp">unhurried.</span>
             </h2>
@@ -55,7 +55,7 @@ export function InsideClinic() {
           <div className="absolute left-5 bottom-5 sm:left-8 sm:bottom-8 bg-white/85 backdrop-blur-md border border-line rounded-2xl px-5 py-4 max-w-[300px] shadow-[0_18px_40px_-22px_rgba(31,27,22,.4)]">
             <div className="text-[10.5px] tracking-[0.22em] uppercase text-inksoft">Walk in</div>
             <div className="font-serif text-[18px] leading-snug mt-1 font-semibold">
-              Welcome to Skin Arch.
+              Welcome to Dr. Ashwini's Skin Arch.
             </div>
             <div className="text-[12.5px] text-inksoft mt-1">
               Kukatpally, Hyderabad · Mon–Sun

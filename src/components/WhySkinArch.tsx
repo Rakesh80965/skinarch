@@ -83,7 +83,7 @@ export function WhySkinArch() {
             </h2>
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
-            Five principles that shape every Skin Arch consultation — from the first phone call to
+            Five principles that shape every consultation at Dr. Ashwini's Skin Arch — from the first phone call to
             the last follow-up.
           </p>
         </div>

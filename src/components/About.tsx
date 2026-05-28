@@ -18,15 +18,15 @@ export function About() {
     <section id="about" className="py-20 lg:py-32">
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
         <div className="lg:col-span-6 reveal">
-          <div className="eyebrow mb-6">About Skin Arch</div>
+          <div className="eyebrow mb-6">About Dr. Ashwini's Skin Arch</div>
           <h2 className="display h-section">
             Careful diagnosis. <span className="text-accentdp">Considered</span> care.
           </h2>
           <div className="mt-8 space-y-5 text-inksoft text-[17px] leading-relaxed max-w-[58ch]">
             <p>
-              Skin Arch is a Kukatpally clinic for skin, hair and aesthetics —
-              small by design. Fewer rooms, fewer distractions, and time enough to
-              actually examine what you came in for.
+              Dr. Ashwini's Skin Arch is a Kukatpally clinic for skin, hair and
+              aesthetics — small by design. Fewer rooms, fewer distractions, and time
+              enough to actually examine what you came in for.
             </p>
             <p>
               Dr. B. Ashwini leads the team. Twelve years of clinical and aesthetic work
