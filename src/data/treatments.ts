@@ -21,19 +21,19 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'pulse',
       title: 'Acne, Spots & Acne Scars',
       desc: 'From active breakouts to lingering spots and scars — peels, lasers and micro-needling.',
-      img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop',
+      img: '/results/acne-before.jpg',
     },
     {
       icon: 'sliders',
       title: 'Uneven Skin, Dullness & Melasma',
       desc: 'Brightening regimens and gentle laser protocols tailored to Indian skin tones.',
-      img: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=900&q=80&auto=format&fit=crop',
+      img: '/results/pigmentation-after.jpg',
     },
     {
       icon: 'syringe',
       title: 'Anti-Ageing',
       desc: 'Subtle, natural correction — Botox, fillers and collagen-stimulating treatments.',
-      img: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=900&q=80&auto=format&fit=crop',
+      img: '/results/antiage-before.jpg',
     },
     {
       icon: 'shield',
@@ -69,7 +69,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'scalpel',
       title: 'Nail Infection & Surgery',
       desc: 'Fungal infections, discoloration, brittle nails and ingrown-nail surgery.',
-      img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop',
+      img: '/results/nail-before.jpg',
     },
   ],
   hair: [
@@ -77,13 +77,13 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'leaf',
       title: 'Hair Fall Treatment',
       desc: 'Medical evaluation, scalp analysis, and a written plan with timelines.',
-      img: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&q=80&auto=format&fit=crop',
+      img: '/results/prp-before.jpg',
     },
     {
       icon: 'syringe',
       title: 'PRP / GFC Therapy',
       desc: 'Growth-factor therapy for active hair loss and post-transplant support.',
-      img: 'https://images.unsplash.com/photo-1559599101-f09722fb4948?w=900&q=80&auto=format&fit=crop',
+      img: '/results/prp-after.jpg',
     },
     {
       icon: 'scissors',
@@ -115,7 +115,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'pulse',
       title: 'Fungal Infections',
       desc: 'Skin and nail fungal infections — diagnosis, oral and topical antifungals, follow-up reviews.',
-      img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop',
+      img: '/results/nail-before.jpg',
     },
     {
       icon: 'spark',
@@ -139,7 +139,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'scalpel',
       title: 'Mole Removal',
       desc: 'Cosmetic and diagnostic excision of moles with fine sutures — minimal scarring.',
-      img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
+      img: '/results/mole-before.jpg',
     },
     {
       icon: 'stitch',

@@ -151,21 +151,37 @@ em {
 }
 .reveal-card .reveal-img {
   position: absolute;
-  inset: auto 0 0 0;
-  height: 0%;
+  inset: 0;
   background-size: cover;
   background-position: center;
-  transition: height 0.55s cubic-bezier(0.2, 0.7, 0.2, 1);
-  opacity: 0.92;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  z-index: 1;
 }
 .reveal-card:hover .reveal-img {
-  height: 60%;
+  opacity: 1;
 }
 .reveal-card .reveal-img::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 35%);
+  background: linear-gradient(180deg, rgba(31, 27, 22, 0.55) 0%, rgba(31, 27, 22, 0.7) 100%);
+}
+.reveal-card > .reveal-card-content {
+  position: relative;
+  z-index: 2;
+  transition: color 0.35s ease;
+}
+.reveal-card:hover .reveal-card-content,
+.reveal-card:hover .reveal-card-content h3,
+.reveal-card:hover .reveal-card-content p,
+.reveal-card:hover .reveal-card-content a,
+.reveal-card:hover .reveal-card-content span {
+  color: #fff;
+}
+.reveal-card:hover .reveal-card-content .reveal-card-icon {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .tab-btn {

@@ -40,11 +40,11 @@ export function Treatments() {
               key={`${tab}-${idx}`}
               className="reveal-card card p-7 h-full flex flex-col in"
             >
-              <div className="relative z-10">
-                <div className="w-11 h-11 rounded-full border border-line grid place-items-center text-ink mb-6 [&_svg]:w-5 [&_svg]:h-5">
+              <div className="reveal-card-content">
+                <div className="reveal-card-icon w-11 h-11 rounded-full border border-line grid place-items-center text-ink mb-6 [&_svg]:w-5 [&_svg]:h-5">
                   {ICONS[it.icon]}
                 </div>
-                <h3 className="font-serif text-[22px] leading-tight mb-2">{it.title}</h3>
+                <h3 className="font-serif text-[22px] leading-tight mb-2 text-ink">{it.title}</h3>
                 <p className="text-inksoft text-[14.5px] leading-relaxed">{it.desc}</p>
                 <div className="mt-6 inline-flex items-center gap-1.5 text-[13px] text-ink/85">
                   <span>Learn more</span>
