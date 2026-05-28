@@ -19,13 +19,13 @@ export function InsideClinic() {
           </p>
         </div>
 
-        <div className="relative rounded-3xl overflow-hidden border border-line aspect-[16/9] sm:aspect-[16/7] bg-sage/30 reveal">
+        <div className="relative rounded-3xl overflow-hidden border border-line aspect-[3/4] sm:aspect-[16/9] lg:aspect-[16/7] bg-sage/30 reveal">
           {hasImg ? (
             <img
               src="/clinic/front-desk.jpg"
               alt="Dr. Ashwini's Skin Arch front desk and reception"
               className="w-full h-full object-cover"
-              style={{ objectPosition: 'center 28%' }}
+              style={{ objectPosition: 'center 30%' }}
               onError={() => setHasImg(false)}
               loading="lazy"
             />
@@ -52,13 +52,15 @@ export function InsideClinic() {
             </div>
           )}
 
-          {/* Floating welcome card */}
-          <div className="absolute left-5 bottom-5 sm:left-8 sm:bottom-8 bg-white/85 backdrop-blur-md border border-line rounded-2xl px-5 py-4 max-w-[300px] shadow-[0_18px_40px_-22px_rgba(31,27,22,.4)]">
-            <div className="text-[10.5px] tracking-[0.22em] uppercase text-inksoft">Walk in</div>
-            <div className="font-serif text-[18px] leading-snug mt-1 font-semibold">
+          {/* Floating welcome card — compact on mobile so it doesn't smother the photo */}
+          <div className="absolute left-4 right-4 bottom-4 sm:left-8 sm:right-auto sm:bottom-8 bg-white/90 backdrop-blur-md border border-line rounded-2xl px-4 py-3 sm:px-5 sm:py-4 sm:max-w-[300px] shadow-[0_18px_40px_-22px_rgba(31,27,22,.4)]">
+            <div className="text-[10px] sm:text-[10.5px] tracking-[0.22em] uppercase text-inksoft">
+              Walk in
+            </div>
+            <div className="font-serif text-[15px] sm:text-[18px] leading-snug mt-0.5 sm:mt-1 font-semibold">
               Welcome to Dr. Ashwini's Skin Arch.
             </div>
-            <div className="text-[12.5px] text-inksoft mt-1">
+            <div className="text-[11.5px] sm:text-[12.5px] text-inksoft mt-0.5 sm:mt-1">
               Kukatpally, Hyderabad · Mon–Sun
             </div>
           </div>
