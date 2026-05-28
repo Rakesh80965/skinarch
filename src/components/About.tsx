@@ -47,18 +47,18 @@ export function About() {
           <div className="grid grid-cols-5 gap-4 lg:gap-6">
             <div className="col-span-3 zoom aspect-[4/5]">
               <img
-                src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=1200&q=80&auto=format&fit=crop"
-                alt="Calm clinic interior"
+                src="/clinic/reveal-vega.jpg"
+                alt="Reveal VEGA laser system at Dr. Ashwini's Skin Arch"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
             <div className="col-span-2 flex flex-col gap-4 lg:gap-6 pt-12">
-              <div className="zoom aspect-[3/4]">
+              <div className="zoom aspect-[3/4] bg-bg">
                 <img
-                  src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=80&auto=format&fit=crop"
-                  alt="Close-up of skincare texture"
-                  className="w-full h-full object-cover"
+                  src="/clinic/tri-beam.jpg"
+                  alt="Tri-Beam Q-switched laser for pigmentation and tattoo removal"
+                  className="w-full h-full object-contain p-3"
                   loading="lazy"
                 />
               </div>
