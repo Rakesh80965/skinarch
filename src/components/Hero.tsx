@@ -40,10 +40,10 @@ export function Hero() {
         <div className="lg:col-span-5 relative reveal">
           <div className="zoom relative aspect-[4/5] max-h-[680px]">
             <img
-              src="/doctors/ashwini-clinic.jpg"
-              alt="Dr. Ashwini preparing a procedure in the clinic"
+              src="/doctors/ashwini-hero.jpg"
+              alt="Dr. B. Ashwini at Skin Arch clinic, Kukatpally"
               className="w-full h-full object-cover"
-              style={{ objectPosition: 'center 18%' }}
+              style={{ objectPosition: 'center 20%' }}
               loading="eager"
             />
           </div>
