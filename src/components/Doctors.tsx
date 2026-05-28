@@ -54,10 +54,10 @@ export function Doctors() {
           <article className="card overflow-hidden reveal lg:col-span-5 flex">
             <div className="zoom w-full min-h-[420px] bg-line">
               <img
-                src="/doctors/ashwini.jpg"
-                alt="Portrait of Dr. B. Ashwini"
+                src="/doctors/ashwini-clinic.jpg"
+                alt="Dr. B. Ashwini at Skin Arch clinic"
                 className="w-full h-full object-cover"
-                style={{ objectPosition: 'center 22%' }}
+                style={{ objectPosition: 'center 18%' }}
                 loading="lazy"
               />
             </div>
