@@ -10,7 +10,7 @@ const STAR = (
 const TESTIMONIALS = [
   "\"The first dermatologist who didn't make me feel like a sales target. She explained every step and the science behind it.\"",
   "\"I'd tried four different acne regimens. The plan I got here was simpler than all of them, and the only one that actually worked.\"",
-  '"My hair-fall consult felt like a doctor\'s appointment, not a sales pitch. PRP, six sessions, very visible difference."',
+  '"My hair fall consult felt like a doctor\'s appointment, not a sales pitch. PRP, six sessions, very visible difference."',
 ];
 
 export function Results() {
@@ -44,9 +44,9 @@ export function Results() {
               <path d="M9.5 8c-3 0-5.5 2.4-5.5 5.5 0 3 2.4 5.4 5.4 5.4.6 0 .9.4.7 1-1 2.6-2.8 4.2-4.1 5-.6.4-.3 1.4.4 1.3 5.4-.9 9.7-5.4 9.7-12.1C16.1 10.5 13.2 8 9.5 8zm14 0c-3 0-5.5 2.4-5.5 5.5 0 3 2.4 5.4 5.4 5.4.6 0 .9.4.7 1-1 2.6-2.8 4.2-4.1 5-.6.4-.3 1.4.4 1.3 5.4-.9 9.7-5.4 9.7-12.1C30.1 10.5 27.2 8 23.5 8z" />
             </svg>
             <p className="font-serif text-[clamp(1.6rem,3.2vw,2.6rem)] leading-[1.2] max-w-4xl relative">
-              I came in for one persistent patch of pigmentation. I left with a three-product plan
-              and a clear timeline. Six weeks later, the patch is almost gone, and I haven't bought
-              a single thing I didn't need.
+              I came in for one persistent patch of pigmentation. I left with a small plan,
+              three products, and a clear timeline. Six weeks later, the patch is almost gone,
+              and I haven't bought a single thing I didn't need.
             </p>
             <p className="mt-8 text-[12.5px] tracking-[0.16em] uppercase text-ink/70">
               Verified patient · Hyderabad
