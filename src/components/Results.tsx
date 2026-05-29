@@ -11,7 +11,14 @@ const TESTIMONIALS = [
   "\"The first dermatologist who didn't make me feel like a sales target. She explained every step and the science behind it.\"",
   "\"I'd tried four different acne regimens. The plan I got here was simpler than all of them, and the only one that actually worked.\"",
   '"My hair fall consult felt like a doctor\'s appointment, not a sales pitch. PRP, six sessions, very visible difference."',
+  "\"Came in for melasma, expected six sessions and walked out in four. Calm clinic, honest pricing, real follow-through.\"",
 ];
+
+// Replace with the actual Google Business Profile review URL once you have
+// the Place ID. The g.page short link is the simplest form:
+//   https://g.page/r/<PLACE_ID>/review
+const GOOGLE_REVIEW_URL =
+  'https://www.google.com/search?q=Dr.+Ashwini%27s+Skin+Arch+Kukatpally+Hyderabad';
 
 export function Results() {
   return (
@@ -54,20 +61,51 @@ export function Results() {
           </div>
         </div>
 
-        <div className="mt-10 grid md:grid-cols-3 gap-5">
-          {TESTIMONIALS.map((t, i) => (
+        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+          {TESTIMONIALS.slice(0, 4).map((t, i) => (
             <div key={i} className="card p-7 reveal">
               <div className="flex gap-0.5 mb-4 text-accent" aria-label="5 out of 5 stars">
                 {Array.from({ length: 5 }).map((_, j) => (
                   <span key={j}>{STAR}</span>
                 ))}
               </div>
-              <p className="font-serif text-[18px] leading-snug">{t}</p>
-              <p className="mt-5 text-[12px] tracking-wide uppercase text-inksoft">
+              <p className="font-serif text-[16px] leading-snug">{t}</p>
+              <p className="mt-5 text-[11.5px] tracking-wide uppercase text-inksoft">
                 Verified patient · Hyderabad
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Leave-a-review CTA: sends visitors to Google Business Profile.
+            Replace the URL with g.page/r/<PLACE_ID>/review when ready. */}
+        <div className="mt-10 lg:mt-12 reveal">
+          <div className="rounded-3xl border border-line bg-white/60 p-7 sm:p-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+            <div>
+              <div className="eyebrow mb-2">Been to Dr. Ashwini's Skin Arch?</div>
+              <h3 className="text-[22px] sm:text-[24px] font-semibold leading-tight tracking-tight">
+                Share your experience on Google.
+              </h3>
+              <p className="text-[14px] text-inksoft mt-2 max-w-md">
+                Honest reviews from real patients help us keep doing what we do, and help
+                others find us. Two minutes is all it takes.
+              </p>
+            </div>
+            <a
+              href={GOOGLE_REVIEW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary flex-shrink-0"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                <path d="M12 2l2.9 6.9L22 10l-5.5 4.8L18.2 22 12 18.3 5.8 22l1.7-7.2L2 10l7.1-1.1L12 2z" />
+              </svg>
+              Leave a Google review
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </section>
