@@ -15,7 +15,7 @@ export function InsideClinic() {
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
             A clean clinic, a quiet waiting area, and a team that knows you by name on your
-            second visit. Walk in, take a breath — we'll take it from here.
+            second visit. Walk in, take a breath. We'll take it from here.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export function InsideClinic() {
             </div>
           )}
 
-          {/* Floating welcome card — compact on mobile so it doesn't smother the photo */}
+          {/* Floating welcome card: compact on mobile so it doesn't smother the photo */}
           <div className="absolute left-4 right-4 bottom-4 sm:left-8 sm:right-auto sm:bottom-8 bg-white/90 backdrop-blur-md border border-line rounded-2xl px-4 py-3 sm:px-5 sm:py-4 sm:max-w-[300px] shadow-[0_18px_40px_-22px_rgba(31,27,22,.4)]">
             <div className="text-[10px] sm:text-[10.5px] tracking-[0.22em] uppercase text-inksoft">
               Walk in

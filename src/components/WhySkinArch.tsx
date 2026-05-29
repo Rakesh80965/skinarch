@@ -17,7 +17,7 @@ const PILLARS: Pillar[] = [
   {
     n: '01',
     title: 'Personalised treatments',
-    body: 'Every plan is written for one person — yours. Reviewed and adjusted at every follow-up.',
+    body: 'Every plan is written for one person. Yours. Reviewed and adjusted at every follow-up.',
     icon: (
       <svg viewBox="0 0 24 24" {...stroke}>
         <circle cx="12" cy="8" r="4" />
@@ -61,7 +61,7 @@ const PILLARS: Pillar[] = [
   {
     n: '05',
     title: 'Proven results',
-    body: 'Treatments judged by your photographs and your satisfaction — never by a sales target.',
+    body: 'Treatments judged by your photographs and your satisfaction, never by a sales target.',
     icon: (
       <svg viewBox="0 0 24 24" {...stroke}>
         <polygon points="12 2 14.9 8.9 22 10 16.5 14.8 18.2 22 12 18.3 5.8 22 7.5 14.8 2 10 9.1 8.9" />
@@ -83,7 +83,7 @@ export function WhySkinArch() {
             </h2>
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
-            Five principles that shape every consultation at Dr. Ashwini's Skin Arch — from the first phone call to
+            Five principles that shape every consultation at Dr. Ashwini's Skin Arch, from the first phone call to
             the last follow-up.
           </p>
         </div>

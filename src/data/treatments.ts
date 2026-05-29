@@ -20,7 +20,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'pulse',
       title: 'Acne, Spots & Acne Scars',
-      desc: 'From active breakouts to lingering spots and scars — peels, lasers and micro-needling.',
+      desc: 'From active breakouts to lingering spots and scars. Peels, lasers and micro-needling.',
       img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -32,19 +32,19 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'syringe',
       title: 'Anti-Ageing',
-      desc: 'Subtle, natural correction — Botox, fillers and collagen-stimulating treatments.',
+      desc: 'Subtle, natural correction with Botox, fillers and collagen-stimulating treatments.',
       img: 'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'shield',
       title: 'Skin Tag & Wart Removal',
-      desc: 'Radiofrequency and cryo — quick, scar-minimised, walk-in procedures.',
+      desc: 'Radiofrequency and cryo. Quick, scar-minimised, walk-in procedures.',
       img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'flask',
       title: 'Chemical Peels',
-      desc: 'Glycolic, mandelic and salicylic peels — graded for your tone and texture.',
+      desc: 'Glycolic, mandelic and salicylic peels, graded for your tone and texture.',
       img: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -56,13 +56,13 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'droplet',
       title: 'Glow Drips',
-      desc: 'IV nutrient therapy — antioxidants, vitamins and skin-brightening blends, by prescription.',
+      desc: 'IV nutrient therapy. Antioxidants, vitamins and skin-brightening blends, by prescription.',
       img: 'https://images.unsplash.com/photo-1498843053639-170ff2122f35?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'star',
       title: 'Permanent Tattoo Removal',
-      desc: 'Q-switched laser sessions to safely fade pigment from ink — paced for your skin.',
+      desc: 'Q-switched laser sessions to safely fade pigment from ink, paced for your skin.',
       img: 'https://images.unsplash.com/photo-1567721913486-6585f069b332?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -94,7 +94,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'sliders',
       title: 'Laser Hair Reduction',
-      desc: 'Diode laser with cooling — safe for darker skin, clinically titrated.',
+      desc: 'Diode laser with cooling, safe for darker skin and clinically titrated.',
       img: 'https://images.unsplash.com/photo-1607779097040-26e80aa78e66?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -114,19 +114,19 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'pulse',
       title: 'Fungal Infections',
-      desc: 'Skin and nail fungal infections — diagnosis, oral and topical antifungals, follow-up reviews.',
+      desc: 'Skin and nail fungal infections. Diagnosis, oral and topical antifungals, with follow-up reviews.',
       img: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'spark',
       title: 'Allergy & Urticaria',
-      desc: 'Hives, contact allergies and food-triggered reactions — diagnosis and management for persistent cases.',
+      desc: 'Hives, contact allergies and food-triggered reactions. Diagnosis and management for persistent cases.',
       img: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'leaf',
       title: 'Eczema',
-      desc: 'Atopic dermatitis and eczema — barrier repair, calming protocols and prescription care when needed.',
+      desc: 'Atopic dermatitis and eczema. Barrier repair, calming protocols and prescription care when needed.',
       img: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -138,7 +138,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'scalpel',
       title: 'Mole Removal',
-      desc: 'Cosmetic and diagnostic excision of moles with fine sutures — minimal scarring.',
+      desc: 'Cosmetic and diagnostic excision of moles with fine sutures, leaving minimal scarring.',
       img: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80&auto=format&fit=crop',
     },
     {
@@ -150,19 +150,19 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     {
       icon: 'flask',
       title: 'Lipoma Removal',
-      desc: 'Surgical removal of benign fatty growths — local anaesthesia, daycare procedure.',
+      desc: 'Surgical removal of benign fatty growths under local anaesthesia, as a daycare procedure.',
       img: 'https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'shield',
       title: 'Corn Removal',
-      desc: 'Painless corn excision and aftercare — footwear and pressure-relief guidance to prevent recurrence.',
+      desc: 'Painless corn excision and aftercare, with footwear and pressure-relief guidance to prevent recurrence.',
       img: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format&fit=crop',
     },
     {
       icon: 'sliders',
       title: 'Earlobe Repair',
-      desc: 'Torn or stretched earlobes restored with fine sutures — daycare procedure, repierce after healing.',
+      desc: 'Torn or stretched earlobes restored with fine sutures as a daycare procedure, ready to repierce after healing.',
       img: 'https://images.unsplash.com/photo-1551076805-e1869033e561?w=900&q=80&auto=format&fit=crop',
     },
   ],

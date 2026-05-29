@@ -44,13 +44,13 @@ export function Doctors() {
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
             A board-certified dermatologist with twelve years of clinical and aesthetic
-            experience — focused on natural, evidence-based outcomes for Indian skin.
+            experience, focused on natural, evidence-based outcomes for Indian skin.
           </p>
         </div>
 
-        {/* Row 1: portrait + (identity + approach + stats) — equal heights */}
+        {/* Row 1: portrait + (identity + approach + stats), equal heights */}
         <div className="grid lg:grid-cols-12 gap-6 lg:gap-8 mb-6">
-          {/* Portrait — pure image card, stretches with the row */}
+          {/* Portrait: pure image card, stretches with the row */}
           <article className="card overflow-hidden reveal lg:col-span-5 flex">
             <div className="zoom w-full min-h-[420px] bg-line">
               <img
@@ -63,7 +63,7 @@ export function Doctors() {
             </div>
           </article>
 
-          {/* Right column — 3 stacked cards */}
+          {/* Right column: 3 stacked cards */}
           <div className="lg:col-span-7 reveal flex flex-col gap-6">
             {/* Identity + tags */}
             <div className="card p-7 lg:p-8">
@@ -85,11 +85,11 @@ export function Doctors() {
               </div>
             </div>
 
-            {/* Approach — grows to fill remaining vertical space */}
+            {/* Approach: grows to fill remaining vertical space */}
             <div className="card p-7 lg:p-8 flex-1 flex flex-col justify-center">
               <div className="eyebrow mb-3">Approach</div>
               <p className="text-[15.5px] text-ink/85 leading-relaxed">
-                I came to dermatology because skin is rarely just skin — it’s sleep, stress,
+                I came to dermatology because skin is rarely just skin. It’s sleep, stress,
                 hormones, sunlight, the products on your shelf. Every plan starts with a careful
                 diagnosis and an honest conversation about what your skin actually needs. Sometimes
                 a single prescription; sometimes a longer protocol. Never a package you didn’t
@@ -124,7 +124,7 @@ export function Doctors() {
                 What we treat, day in and day out.
               </h3>
               <p className="text-[14px] text-inksoft mt-3 leading-relaxed">
-                Common concerns and advanced procedures — every plan tailored to your
+                Common concerns and advanced procedures. Every plan tailored to your
                 skin and your timeline.
               </p>
               <a href="#book" className="mt-6 inline-flex btn btn-primary">

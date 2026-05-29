@@ -30,7 +30,7 @@ export function Footer() {
             skin arch<span className="text-accent">.</span>
           </div>
           <p className="mt-4 max-w-sm text-[14.5px]">
-            Skin, hair and aesthetics — a dermatology clinic in Kukatpally, Hyderabad.
+            Skin, hair and aesthetics. A dermatology clinic in Kukatpally, Hyderabad.
             Careful diagnosis, considered care, quietly confident results.
           </p>
           <div className="mt-8 flex items-center gap-2">

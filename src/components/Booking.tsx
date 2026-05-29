@@ -13,7 +13,7 @@ const CONCERNS = [
 const EXPECTATIONS = [
   "We'll call within a working day to confirm.",
   '30-minute initial consultation with Dr. Ashwini.',
-  'A written plan with timelines and options — no pressure.',
+  'A written plan with timelines and options. No pressure.',
 ];
 
 function BookingImage() {
@@ -83,7 +83,7 @@ export function Booking() {
     e.preventDefault();
     setSubmitting(true);
     setTimeout(() => {
-      alert('Thanks — our team will reach out shortly.');
+      alert('Thanks. Our team will reach out shortly.');
       (e.target as HTMLFormElement).reset();
       setSubmitting(false);
     }, 200);
@@ -96,7 +96,7 @@ export function Booking() {
     <section id="book" className="py-16 lg:py-24">
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8">
         <div className="rounded-3xl bg-accent text-[#FBF6EE] overflow-hidden grid lg:grid-cols-12 shadow-[0_30px_80px_-40px_rgba(138,98,73,.6)]">
-          {/* LEFT — form panel */}
+          {/* LEFT: form panel */}
           <div className="lg:col-span-7 p-8 sm:p-12 lg:p-14">
             <div className="eyebrow !text-[#F0E0D0] mb-4">Book a consultation</div>
             <h2 className="display text-[clamp(2rem,3.6vw,3rem)] leading-[1.05]">
@@ -166,7 +166,7 @@ export function Booking() {
             </form>
           </div>
 
-          {/* RIGHT — visual panel */}
+          {/* RIGHT: visual panel */}
           <div className="lg:col-span-5 relative min-h-[420px] lg:min-h-0 border-t lg:border-t-0 lg:border-l border-white/15">
             <BookingImage />
             {/* Subtle gradient for readability of overlay card */}

@@ -25,7 +25,7 @@ export function About() {
           <div className="mt-8 space-y-5 text-inksoft text-[17px] leading-relaxed max-w-[58ch]">
             <p>
               Dr. Ashwini's Skin Arch is a Kukatpally clinic for skin, hair and
-              aesthetics — small by design. Fewer rooms, fewer distractions, and time
+              aesthetics, small by design. Fewer rooms, fewer distractions, and time
               enough to actually examine what you came in for.
             </p>
             <p>
@@ -67,7 +67,7 @@ export function About() {
                 <p className="text-[19px] leading-snug font-medium">
                   “We treat the person, then the skin. In that order.”
                 </p>
-                <p className="text-[12px] text-inksoft mt-3">— Dr. B. Ashwini</p>
+                <p className="text-[12px] text-inksoft mt-3">Dr. B. Ashwini</p>
               </div>
             </div>
           </div>

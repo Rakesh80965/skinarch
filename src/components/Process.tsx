@@ -7,17 +7,17 @@ const STEPS = [
   {
     n: '02',
     title: 'Skin analysis',
-    body: 'Magnification, photo documentation and — when needed — bloodwork or biopsy.',
+    body: 'Magnification, photo documentation and, when needed, bloodwork or biopsy.',
   },
   {
     n: '03',
     title: 'Personalised plan',
-    body: 'A written plan, a clear timeline, and a transparent breakdown of options — no pressure.',
+    body: 'A written plan, a clear timeline, and a transparent breakdown of options. No pressure.',
   },
   {
     n: '04',
     title: 'Follow-through',
-    body: 'Scheduled check-ins, photo reviews, and adjustments — until your skin is settled.',
+    body: 'Scheduled check-ins, photo reviews, and adjustments, until your skin is settled.',
   },
 ];
 

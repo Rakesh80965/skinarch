@@ -17,7 +17,7 @@ export function Treatments() {
             </h2>
           </div>
           <p className="text-inksoft max-w-md text-[15.5px] leading-relaxed">
-            Skin, hair and aesthetics — from everyday concerns to advanced procedures.
+            Skin, hair and aesthetics, from everyday concerns to advanced procedures.
             Every plan is built around what you actually need, in the order that makes sense.
           </p>
         </div>

@@ -9,7 +9,7 @@ const STAR = (
 
 const TESTIMONIALS = [
   "\"The first dermatologist who didn't make me feel like a sales target. She explained every step and the science behind it.\"",
-  "\"I'd tried four different acne regimens. The plan I got here was simpler than all of them — and the only one that actually worked.\"",
+  "\"I'd tried four different acne regimens. The plan I got here was simpler than all of them, and the only one that actually worked.\"",
   '"My hair-fall consult felt like a doctor\'s appointment, not a sales pitch. PRP, six sessions, very visible difference."',
 ];
 
@@ -45,7 +45,7 @@ export function Results() {
             </svg>
             <p className="font-serif text-[clamp(1.6rem,3.2vw,2.6rem)] leading-[1.2] max-w-4xl relative">
               I came in for one persistent patch of pigmentation. I left with a three-product plan
-              and a clear timeline. Six weeks later, the patch is almost gone — and I haven't bought
+              and a clear timeline. Six weeks later, the patch is almost gone, and I haven't bought
               a single thing I didn't need.
             </p>
             <p className="mt-8 text-[12.5px] tracking-[0.16em] uppercase text-ink/70">
