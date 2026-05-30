@@ -36,9 +36,9 @@ export function BeforeAfterCard({ item }: Props) {
         onTouchMove={(e) => dragging.current && onMove(e.touches[0].clientX)}
         onTouchEnd={() => (dragging.current = false)}
       >
-        <img className="before" src={item.before} alt={`${item.label} before`} loading="lazy" />
+        <img className="before" src={item.before} alt={`${item.label} before`} loading="lazy" style={item.focus ? { objectPosition: item.focus } : undefined} />
         <div className="after-wrap" style={{ clipPath: `inset(0 0 0 ${pct}%)` }}>
-          <img className="after" src={item.after} alt={`${item.label} after`} loading="lazy" />
+          <img className="after" src={item.after} alt={`${item.label} after`} loading="lazy" style={item.focus ? { objectPosition: item.focus } : undefined} />
         </div>
         <div className="handle" style={{ left: `${pct}%` }} />
         <div className="knob" style={{ left: `${pct}%` }} aria-hidden>

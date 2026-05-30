@@ -2,6 +2,8 @@ export interface BeforeAfter {
   label: string;
   before: string;
   after: string;
+  /** CSS object-position for crop-to-fill, e.g. 'center 28%' to bias toward the face */
+  focus?: string;
 }
 
 export const BEFORE_AFTER: BeforeAfter[] = [
@@ -14,6 +16,7 @@ export const BEFORE_AFTER: BeforeAfter[] = [
     label: 'Pigmentation · laser',
     before: '/results/pigmentation-before.jpg',
     after: '/results/pigmentation-after.jpg',
+    focus: 'center 24%',
   },
   {
     label: 'PRP · hair regrowth',
