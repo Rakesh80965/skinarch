@@ -27,7 +27,7 @@ export function Footer() {
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
           <div className="text-[#F4EFE5] text-[28px] font-semibold tracking-[-0.02em]">
-            skin arch<span className="text-accent">.</span>
+            Dr. Ashwini's skin arch<span className="text-accent">.</span>
           </div>
           <p className="mt-4 max-w-sm text-[14.5px]">
             Skin, hair and aesthetics. A dermatology clinic in Kukatpally, Hyderabad.
