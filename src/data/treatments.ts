@@ -157,7 +157,7 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'shield',
       title: 'Corn Removal',
       desc: 'Painless corn excision and aftercare, with footwear and pressure-relief guidance to prevent recurrence.',
-      img: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80&auto=format&fit=crop',
+      img: '/treatments/corn.jpg',
     },
     {
       icon: 'sliders',
