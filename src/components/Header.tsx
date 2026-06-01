@@ -22,13 +22,12 @@ export function Header({ onOpenMenu }: Props) {
       <div className="max-w-[1320px] mx-auto px-4 sm:px-5 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-3">
         <a href="#top" className="flex items-center gap-2 sm:gap-2.5 min-w-0">
           <img src="/brand/lotus.png" alt="" className="h-7 sm:h-9 w-auto shrink-0" />
-          <span className="flex items-baseline gap-1.5 min-w-0">
-            <span className="inline sm:hidden lg:inline text-[17px] lg:text-[22px] font-semibold tracking-[-0.02em] leading-none whitespace-nowrap">
-              Dr. Ashwini's skin arch<span className="text-accent">.</span>
+          <span className="flex sm:hidden lg:flex flex-col leading-[1.05] min-w-0">
+            <span className="text-[13px] lg:text-[15px] font-bold tracking-[-0.01em] whitespace-nowrap">
+              Dr. Ashwini's
             </span>
-            <span className="hidden lg:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
-            <span className="hidden lg:inline text-[11px] tracking-[0.18em] uppercase text-inksoft">
-              Hyderabad
+            <span className="text-[13px] lg:text-[15px] font-bold tracking-[-0.01em] whitespace-nowrap">
+              skin arch<span className="text-accent">.</span>
             </span>
           </span>
         </a>
