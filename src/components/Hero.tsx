@@ -13,7 +13,7 @@ export function Hero() {
             and finds calm.
           </h1>
           <p className="mt-7 max-w-xl text-inksoft text-[17px] leading-relaxed">
-            Dermatology that listens before it prescribes. Dr. Ashwini's Skin Arch is
+            Dermatology that listens before it prescribes. Dr. Ashwini's Skin Arc is
             a Kukatpally clinic for skin, hair and aesthetics. Small, well-equipped,
             and built around one idea: diagnose first, treat second, sell never.
           </p>
@@ -41,7 +41,7 @@ export function Hero() {
           <div className="zoom relative aspect-[4/5] max-h-[680px]">
             <img
               src="/doctors/ashwini-hero.jpg"
-              alt="Dr. B. Ashwini at Skin Arch clinic, Kukatpally"
+              alt="Dr. B. Ashwini at Skin Arc clinic, Kukatpally"
               className="w-full h-full object-cover"
               style={{ objectPosition: 'center 20%' }}
               loading="eager"

@@ -23,7 +23,7 @@ function BookingImage() {
     return (
       <img
         src="/clinic/booking.jpg"
-        alt="Skin Arch clinic"
+        alt="Skin Arc clinic"
         className="absolute inset-0 w-full h-full object-cover"
         onError={() => setHasImg(false)}
         loading="lazy"

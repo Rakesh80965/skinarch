@@ -29,7 +29,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <img src="/brand/lotus.png" alt="" className="h-11 w-auto" />
             <div className="text-[#F4EFE5] text-[28px] font-semibold tracking-[-0.02em]">
-              Dr. Ashwini's skin arch<span className="text-accent">.</span>
+              Dr. Ashwini's skin arc<span className="text-accent">.</span>
             </div>
           </div>
           <p className="mt-4 max-w-sm text-[14.5px]">
@@ -109,7 +109,7 @@ export function Footer() {
       </div>
 
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 mt-14 pt-6 border-t border-[#3a3127] flex flex-col sm:flex-row gap-3 justify-between text-[12px] text-[#857968]">
-        <span>© {new Date().getFullYear()} Dr. Ashwini's Skin Arch. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Dr. Ashwini's Skin Arc. All rights reserved.</span>
         <span>Designed with care.</span>
       </div>
     </footer>

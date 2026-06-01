@@ -18,7 +18,7 @@ const TESTIMONIALS = [
 // the Place ID. The g.page short link is the simplest form:
 //   https://g.page/r/<PLACE_ID>/review
 const GOOGLE_REVIEW_URL =
-  'https://www.google.com/search?q=Dr.+Ashwini%27s+Skin+Arch+Kukatpally+Hyderabad';
+  'https://www.google.com/search?q=Dr.+Ashwini%27s+Skin+Arc+Kukatpally+Hyderabad';
 
 export function Results() {
   return (
@@ -82,7 +82,7 @@ export function Results() {
         <div className="mt-10 lg:mt-12 reveal">
           <div className="rounded-3xl border border-line bg-white/60 p-7 sm:p-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
             <div>
-              <div className="eyebrow mb-2">Been to Dr. Ashwini's Skin Arch?</div>
+              <div className="eyebrow mb-2">Been to Dr. Ashwini's Skin Arc?</div>
               <h3 className="text-[22px] sm:text-[24px] font-semibold leading-tight tracking-tight">
                 Share your experience on Google.
               </h3>

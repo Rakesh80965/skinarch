@@ -1,6 +1,6 @@
-# Skin Arch Clinic — React + Bun
+# Skin Arc Clinic — React + Bun
 
-A React + TypeScript port of the Skin Arch single-page site, built with Vite, styled with Tailwind, and run on Bun.
+A React + TypeScript port of the Skin Arc single-page site, built with Vite, styled with Tailwind, and run on Bun.
 
 ## Quick start
 

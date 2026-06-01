@@ -27,7 +27,7 @@ export function Header({ onOpenMenu }: Props) {
               Dr. Ashwini's
             </span>
             <span className="text-[13px] lg:text-[15px] font-bold tracking-[-0.01em] whitespace-nowrap">
-              skin arch<span className="text-accent">.</span>
+              skin arc<span className="text-accent">.</span>
             </span>
           </span>
         </a>

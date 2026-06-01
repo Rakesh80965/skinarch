@@ -30,7 +30,7 @@ export function MobileNav({ open, onClose }: Props) {
         <span className="flex items-center gap-2 min-w-0">
           <img src="/brand/lotus.png" alt="" className="h-7 w-auto shrink-0" />
           <span className="text-[18px] font-semibold tracking-[-0.02em] whitespace-nowrap">
-            Dr. Ashwini's skin arch<span className="text-accent">.</span>
+            Dr. Ashwini's skin arc<span className="text-accent">.</span>
           </span>
         </span>
         <button

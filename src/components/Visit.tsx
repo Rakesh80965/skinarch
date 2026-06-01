@@ -9,7 +9,7 @@ export function Visit() {
           </h2>
           <div className="rounded-2xl overflow-hidden border border-line aspect-[4/3] bg-line">
             <iframe
-              title="Skin Arch Clinic on map"
+              title="Skin Arc Clinic on map"
               src="https://www.google.com/maps?q=17.493742,78.413866&z=16&output=embed"
               className="w-full h-full"
               style={{ border: 0, filter: 'grayscale(0.25) contrast(0.95)' }}

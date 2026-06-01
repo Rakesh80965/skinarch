@@ -55,7 +55,7 @@ export function Doctors() {
             <div className="zoom w-full min-h-[420px] bg-line">
               <img
                 src="/doctors/ashwini-clinic.jpg"
-                alt="Dr. B. Ashwini at Skin Arch clinic"
+                alt="Dr. B. Ashwini at Skin Arc clinic"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: 'center 18%' }}
                 loading="lazy"
@@ -96,7 +96,7 @@ export function Doctors() {
                 ask for.
               </p>
               <p className="text-[14px] text-inksoft leading-relaxed">
-                That philosophy runs through every consultation at Skin Arch — diagnose first,
+                That philosophy runs through every consultation at Skin Arc — diagnose first,
                 treat second, and only recommend what genuinely helps your skin and hair.
               </p>
               <div className="flex items-center gap-3 pt-1">

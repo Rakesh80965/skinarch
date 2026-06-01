@@ -8,7 +8,7 @@ export function InsideClinic() {
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10 reveal">
           <div>
-            <div className="eyebrow mb-5">Inside Dr. Ashwini's Skin Arch</div>
+            <div className="eyebrow mb-5">Inside Dr. Ashwini's Skin Arc</div>
             <h2 className="display h-section">
               Calm, well-lit, <span className="text-accentdp">unhurried.</span>
             </h2>
@@ -23,7 +23,7 @@ export function InsideClinic() {
           {hasImg ? (
             <img
               src="/clinic/front-desk.jpg"
-              alt="Dr. Ashwini's Skin Arch front desk and reception"
+              alt="Dr. Ashwini's Skin Arc front desk and reception"
               className="w-full h-full object-cover"
               style={{ objectPosition: 'center 30%' }}
               onError={() => setHasImg(false)}
@@ -58,7 +58,7 @@ export function InsideClinic() {
               Walk in
             </div>
             <div className="font-serif text-[15px] sm:text-[18px] leading-snug mt-0.5 sm:mt-1 font-semibold">
-              Welcome to Dr. Ashwini's Skin Arch.
+              Welcome to Dr. Ashwini's Skin Arc.
             </div>
             <div className="text-[11.5px] sm:text-[12.5px] text-inksoft mt-0.5 sm:mt-1">
               Kukatpally, Hyderabad · Mon–Sun

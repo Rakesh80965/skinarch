@@ -18,13 +18,13 @@ export function About() {
     <section id="about" className="py-16 lg:py-32">
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 grid lg:grid-cols-12 gap-10 lg:gap-20 items-start">
         <div className="lg:col-span-6 reveal">
-          <div className="eyebrow mb-6">About Dr. Ashwini's Skin Arch</div>
+          <div className="eyebrow mb-6">About Dr. Ashwini's Skin Arc</div>
           <h2 className="display h-section">
             Careful diagnosis. <span className="text-accentdp">Considered</span> care.
           </h2>
           <div className="mt-8 space-y-5 text-inksoft text-[17px] leading-relaxed max-w-[58ch]">
             <p>
-              Dr. Ashwini's Skin Arch is a Kukatpally clinic for skin, hair and
+              Dr. Ashwini's Skin Arc is a Kukatpally clinic for skin, hair and
               aesthetics, small by design. Fewer rooms, fewer distractions, and time
               enough to actually examine what you came in for.
             </p>
@@ -83,7 +83,7 @@ export function About() {
             <div className="col-span-3 zoom aspect-[4/5]">
               <img
                 src="/clinic/reveal-vega.jpg"
-                alt="Reveal VEGA laser system at Dr. Ashwini's Skin Arch"
+                alt="Reveal VEGA laser system at Dr. Ashwini's Skin Arc"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
