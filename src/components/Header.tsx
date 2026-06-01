@@ -23,7 +23,7 @@ export function Header({ onOpenMenu }: Props) {
         <a href="#top" className="flex items-center gap-2 sm:gap-2.5 min-w-0">
           <img src="/brand/lotus.png" alt="" className="h-7 sm:h-9 w-auto shrink-0" />
           <span className="flex items-baseline gap-1.5 min-w-0">
-            <span className="hidden lg:inline text-[22px] font-semibold tracking-[-0.02em] leading-none whitespace-nowrap">
+            <span className="inline sm:hidden lg:inline text-[17px] lg:text-[22px] font-semibold tracking-[-0.02em] leading-none whitespace-nowrap">
               Dr. Ashwini's skin arch<span className="text-accent">.</span>
             </span>
             <span className="hidden lg:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
