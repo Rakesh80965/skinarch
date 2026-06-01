@@ -1,3 +1,5 @@
+import { useEffect } from 'react';
+
 interface Props {
   open: boolean;
   onClose: () => void;
@@ -12,12 +14,22 @@ const LINKS = [
 ];
 
 export function MobileNav({ open, onClose }: Props) {
+  useEffect(() => {
+    document.body.style.overflow = open ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [open]);
+
   return (
-    <aside className={`mnav ${open ? 'open' : ''} fixed inset-0 z-50 bg-bg pt-6 px-6 overflow-y-auto`}>
+    <aside
+      className={`mnav ${open ? 'open' : ''} fixed inset-0 z-50 bg-bg pt-5 px-6 pb-10 overflow-y-auto`}
+      aria-hidden={!open}
+    >
       <div className="flex items-center justify-between mb-10">
-        <span className="flex items-center gap-2.5">
-          <img src="/brand/lotus.png" alt="" className="h-8 w-auto" />
-          <span className="text-[22px] font-semibold tracking-[-0.02em]">
+        <span className="flex items-center gap-2 min-w-0">
+          <img src="/brand/lotus.png" alt="" className="h-7 w-auto shrink-0" />
+          <span className="text-[18px] font-semibold tracking-[-0.02em] whitespace-nowrap">
             Dr. Ashwini's skin arch<span className="text-accent">.</span>
           </span>
         </span>
@@ -31,7 +43,7 @@ export function MobileNav({ open, onClose }: Props) {
           </svg>
         </button>
       </div>
-      <nav className="font-serif text-4xl space-y-5 mb-10">
+      <nav className="font-serif text-[2rem] sm:text-4xl space-y-4 sm:space-y-5 mb-10">
         {LINKS.map((l) => (
           <a key={l.href} className="block" href={l.href} onClick={onClose}>
             {l.label}

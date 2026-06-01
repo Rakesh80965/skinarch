@@ -19,11 +19,11 @@ export function Header({ onOpenMenu }: Props) {
       id="header"
       className={`sticky top-0 z-40 transition-all ${blurred ? 'header-blur' : ''}`}
     >
-      <div className="max-w-[1320px] mx-auto px-5 lg:px-8 py-4 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-2.5">
-          <img src="/brand/lotus.png" alt="" className="h-9 w-auto" />
-          <span className="flex items-baseline gap-1.5">
-            <span className="text-[22px] font-semibold tracking-[-0.02em] leading-none">
+      <div className="max-w-[1320px] mx-auto px-4 sm:px-5 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-3">
+        <a href="#top" className="flex items-center gap-2 sm:gap-2.5 min-w-0">
+          <img src="/brand/lotus.png" alt="" className="h-7 sm:h-9 w-auto shrink-0" />
+          <span className="flex items-baseline gap-1.5 min-w-0">
+            <span className="text-[16px] sm:text-[20px] lg:text-[22px] font-semibold tracking-[-0.02em] leading-none whitespace-nowrap">
               Dr. Ashwini's skin arch<span className="text-accent">.</span>
             </span>
             <span className="hidden sm:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
@@ -39,7 +39,7 @@ export function Header({ onOpenMenu }: Props) {
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           <a
             href="tel:+91XXXXXXXXXX"
             className="hidden md:inline-flex btn btn-ghost !py-2 !px-3.5 text-[13px]"
@@ -50,12 +50,12 @@ export function Header({ onOpenMenu }: Props) {
             </svg>
             Call
           </a>
-          <a href="#book" className="btn btn-primary !py-2.5 !px-4 text-[13px]">
+          <a href="#book" className="hidden sm:inline-flex btn btn-primary !py-2.5 !px-4 text-[13px] whitespace-nowrap">
             Book Consultation
           </a>
           <button
             onClick={onOpenMenu}
-            className="lg:hidden ml-1 w-10 h-10 rounded-full border border-line grid place-items-center"
+            className="lg:hidden w-10 h-10 rounded-full border border-line grid place-items-center shrink-0 active:bg-line/60 transition"
             aria-label="Menu"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
