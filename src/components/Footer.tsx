@@ -26,8 +26,11 @@ export function Footer() {
     <footer className="bg-espresso text-[#C9BFB1] pt-20 pb-10">
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 grid md:grid-cols-12 gap-10">
         <div className="md:col-span-5">
-          <div className="text-[#F4EFE5] text-[28px] font-semibold tracking-[-0.02em]">
-            Dr. Ashwini's skin arch<span className="text-accent">.</span>
+          <div className="flex items-center gap-3">
+            <img src="/brand/lotus.png" alt="" className="h-11 w-auto" />
+            <div className="text-[#F4EFE5] text-[28px] font-semibold tracking-[-0.02em]">
+              Dr. Ashwini's skin arch<span className="text-accent">.</span>
+            </div>
           </div>
           <p className="mt-4 max-w-sm text-[14.5px]">
             Skin, hair and aesthetics. A dermatology clinic in Kukatpally, Hyderabad.

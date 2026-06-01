@@ -15,8 +15,11 @@ export function MobileNav({ open, onClose }: Props) {
   return (
     <aside className={`mnav ${open ? 'open' : ''} fixed inset-0 z-50 bg-bg pt-6 px-6 overflow-y-auto`}>
       <div className="flex items-center justify-between mb-10">
-        <span className="text-[22px] font-semibold tracking-[-0.02em]">
-          Dr. Ashwini's skin arch<span className="text-accent">.</span>
+        <span className="flex items-center gap-2.5">
+          <img src="/brand/lotus.png" alt="" className="h-8 w-auto" />
+          <span className="text-[22px] font-semibold tracking-[-0.02em]">
+            Dr. Ashwini's skin arch<span className="text-accent">.</span>
+          </span>
         </span>
         <button
           onClick={onClose}

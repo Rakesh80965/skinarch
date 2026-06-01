@@ -20,13 +20,16 @@ export function Header({ onOpenMenu }: Props) {
       className={`sticky top-0 z-40 transition-all ${blurred ? 'header-blur' : ''}`}
     >
       <div className="max-w-[1320px] mx-auto px-5 lg:px-8 py-4 flex items-center justify-between">
-        <a href="#top" className="flex items-baseline gap-1.5">
-          <span className="text-[22px] font-semibold tracking-[-0.02em] leading-none">
-            Dr. Ashwini's skin arch<span className="text-accent">.</span>
-          </span>
-          <span className="hidden sm:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
-          <span className="hidden sm:inline text-[11px] tracking-[0.18em] uppercase text-inksoft">
-            Hyderabad
+        <a href="#top" className="flex items-center gap-2.5">
+          <img src="/brand/lotus.png" alt="" className="h-9 w-auto" />
+          <span className="flex items-baseline gap-1.5">
+            <span className="text-[22px] font-semibold tracking-[-0.02em] leading-none">
+              Dr. Ashwini's skin arch<span className="text-accent">.</span>
+            </span>
+            <span className="hidden sm:inline w-1 h-1 rounded-full bg-accent translate-y-[-2px]" />
+            <span className="hidden sm:inline text-[11px] tracking-[0.18em] uppercase text-inksoft">
+              Hyderabad
+            </span>
           </span>
         </a>
         <nav className="hidden lg:flex items-center gap-9 text-[14px] text-inksoft">
