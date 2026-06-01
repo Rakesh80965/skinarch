@@ -85,9 +85,9 @@ export function Doctors() {
               </div>
             </div>
 
-            {/* Approach: grows to fill remaining vertical space */}
-            <div className="card p-7 lg:p-8 flex-1 flex flex-col justify-center">
-              <div className="eyebrow mb-3">Approach</div>
+            {/* Approach */}
+            <div className="card p-7 lg:p-8 flex-1 flex flex-col justify-center gap-4">
+              <div className="eyebrow">Approach</div>
               <p className="text-[15.5px] text-ink/85 leading-relaxed">
                 I came to dermatology because skin is rarely just skin. It’s sleep, stress,
                 hormones, sunlight, the products on your shelf. Every plan starts with a careful
@@ -95,6 +95,17 @@ export function Doctors() {
                 a single prescription; sometimes a longer protocol. Never a package you didn’t
                 ask for.
               </p>
+              <p className="text-[14px] text-inksoft leading-relaxed">
+                That philosophy runs through every consultation at Skin Arch — diagnose first,
+                treat second, and only recommend what genuinely helps your skin and hair.
+              </p>
+              <div className="flex items-center gap-3 pt-1">
+                <span className="font-serif text-[20px] text-accentdp italic">Dr. Ashwini</span>
+                <span className="h-px flex-1 bg-line" />
+                <span className="text-[11px] tracking-[0.16em] uppercase text-inksoft">
+                  Lead dermatologist
+                </span>
+              </div>
             </div>
 
             {/* Stats row */}
