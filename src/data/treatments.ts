@@ -51,13 +51,13 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
       icon: 'spark',
       title: 'Carbon Laser Toning & Medi-Facials',
       desc: 'Carbon laser toning, Hydrafacial and bespoke medi-facials for a clear, fresh finish.',
-      img: '/treatments/medi-facial.jpg',
+      img: '/treatments/medi-facial.webp',
     },
     {
       icon: 'droplet',
       title: 'Glow Drips',
       desc: 'IV nutrient therapy. Antioxidants, vitamins and skin-brightening blends, by prescription.',
-      img: '/treatments/glow-drips.jpg',
+      img: '/treatments/glow-drips.png',
     },
     {
       icon: 'star',
