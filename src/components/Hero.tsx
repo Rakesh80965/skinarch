@@ -5,7 +5,7 @@ export function Hero() {
         <div className="lg:col-span-7 reveal">
           <div className="eyebrow mb-6 flex items-center gap-3">
             <span className="w-8 h-px bg-ink" />
-            Skin · Hair · Aesthetics
+            Skin · Hair · Nail · Aesthetics
           </div>
           <h1 className="display h-hero">
             Where skin meets <em className="font-normal text-accentdp">science,</em>
