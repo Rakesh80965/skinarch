@@ -5,8 +5,8 @@ export function AnnouncementBar() {
         <span className="inline-flex w-1.5 h-1.5 rounded-full bg-accent dot-pulse" />
         <span className="tracking-wide">
           Now booking · Mon–Sun · Kukatpally, Hyderabad ·{' '}
-          <a href="tel:+91XXXXXXXXXX" className="underline underline-offset-2 hover:text-white">
-            +91 XXXXX XXXXX
+          <a href="tel:+917288911000" className="underline underline-offset-2 hover:text-white">
+            +91 72889 11000
           </a>
         </span>
       </div>

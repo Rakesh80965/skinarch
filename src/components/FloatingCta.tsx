@@ -2,7 +2,7 @@ export function FloatingCta() {
   return (
     <div className="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
       <a
-        href="https://wa.me/91XXXXXXXXXX"
+        href="https://wa.me/917288911000"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp us"
@@ -13,7 +13,7 @@ export function FloatingCta() {
         </svg>
       </a>
       <a
-        href="tel:+91XXXXXXXXXX"
+        href="tel:+917288911000"
         aria-label="Call clinic"
         className="w-14 h-14 rounded-full bg-ink text-bg grid place-items-center shadow-[0_14px_28px_-12px_rgba(31,27,22,.6)]"
       >

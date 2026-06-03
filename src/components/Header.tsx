@@ -40,7 +40,7 @@ export function Header({ onOpenMenu }: Props) {
         </nav>
         <div className="flex items-center gap-2 shrink-0">
           <a
-            href="tel:+91XXXXXXXXXX"
+            href="tel:+917288911000"
             className="hidden md:inline-flex btn btn-ghost !py-2 !px-3.5 text-[13px]"
             aria-label="Call clinic"
           >

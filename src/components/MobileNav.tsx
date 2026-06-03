@@ -53,8 +53,8 @@ export function MobileNav({ open, onClose }: Props) {
       <div className="pt-6 border-t border-line space-y-3 text-sm text-inksoft">
         <div>Mon–Sun · 10:00 AM – 2:00 PM, 5:30 PM – 9:30 PM</div>
         <div>
-          <a href="tel:+91XXXXXXXXXX" className="text-ink">
-            +91 XXXXX XXXXX
+          <a href="tel:+917288911000" className="text-ink">
+            +91 72889 11000
           </a>
         </div>
         <a href="#book" className="btn btn-primary mt-4" onClick={onClose}>

@@ -90,13 +90,13 @@ export function Footer() {
           <div className="eyebrow !text-[#857968] mb-5">Contact</div>
           <ul className="space-y-2.5 text-[14.5px]">
             <li>
-              <a href="tel:+91XXXXXXXXXX" className="hover:text-white">
-                +91 XXXXX XXXXX
+              <a href="tel:+917288911000" className="hover:text-white">
+                +91 72889 11000
               </a>
             </li>
             <li>
-              <a href="mailto:hello@skinarch.in" className="hover:text-white">
-                hello@skinarch.in
+              <a href="mailto:skinarc007@gmail.com" className="hover:text-white">
+                skinarc007@gmail.com
               </a>
             </li>
             <li className="text-[#857968] text-[13px] pt-2">

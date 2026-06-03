@@ -63,17 +63,17 @@ export function Visit() {
             <div className="space-y-2 text-[14.5px]">
               <div className="flex items-center gap-3">
                 <span className="text-inksoft text-[12px] w-14 uppercase tracking-wide">Phone</span>
-                <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
+                <a href="tel:+917288911000">+91 72889 11000</a>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-inksoft text-[12px] w-14 uppercase tracking-wide">
                   WhatsApp
                 </span>
-                <a href="https://wa.me/91XXXXXXXXXX">+91 XXXXX XXXXX</a>
+                <a href="https://wa.me/917288911000">+91 72889 11000</a>
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-inksoft text-[12px] w-14 uppercase tracking-wide">Email</span>
-                <a href="mailto:hello@skinarch.in">hello@skinarch.in</a>
+                <a href="mailto:skinarc007@gmail.com">skinarc007@gmail.com</a>
               </div>
             </div>
             <div className="flex items-center gap-2 mt-5 pt-5 border-t border-line">
