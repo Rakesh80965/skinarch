@@ -76,17 +76,31 @@ function Check() {
   );
 }
 
-export function Booking() {
-  const [submitting, setSubmitting] = useState(false);
+const WHATSAPP_NUMBER = '917288911000';
 
+export function Booking() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitting(true);
-    setTimeout(() => {
-      alert('Thanks. Our team will reach out shortly.');
-      (e.target as HTMLFormElement).reset();
-      setSubmitting(false);
-    }, 200);
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const name = String(data.get('name') ?? '').trim();
+    const phone = String(data.get('phone') ?? '').trim();
+    const concern = String(data.get('concern') ?? '').trim();
+    const date = String(data.get('date') ?? '').trim();
+
+    const text =
+      `Hello Dr. Ashwini's Skin Arc, I'd like to book a consultation.\n\n` +
+      `Name: ${name}\n` +
+      `Phone: ${phone}\n` +
+      `Concern: ${concern}\n` +
+      `Preferred date: ${date}`;
+
+    window.open(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`,
+      '_blank',
+      'noopener,noreferrer'
+    );
+    form.reset();
   };
 
   const inputCls =
@@ -130,15 +144,15 @@ export function Booking() {
             <form className="grid sm:grid-cols-2 gap-3" onSubmit={onSubmit}>
               <label className="block">
                 <span className="sr-only">Name</span>
-                <input required type="text" placeholder="Your name" className={inputCls} />
+                <input required name="name" type="text" placeholder="Your name" className={inputCls} />
               </label>
               <label className="block">
                 <span className="sr-only">Phone</span>
-                <input required type="tel" placeholder="Phone number" className={inputCls} />
+                <input required name="phone" type="tel" placeholder="Phone number" className={inputCls} />
               </label>
               <label className="block">
                 <span className="sr-only">Primary concern</span>
-                <select required defaultValue="" className={inputCls}>
+                <select required name="concern" defaultValue="" className={inputCls}>
                   <option value="" className="text-ink" disabled>
                     Primary concern…
                   </option>
@@ -151,18 +165,20 @@ export function Booking() {
               </label>
               <label className="block">
                 <span className="sr-only">Preferred date</span>
-                <input required type="date" className={inputCls} />
+                <input required name="date" type="date" className={inputCls} />
               </label>
               <button
                 type="submit"
-                disabled={submitting}
-                className="sm:col-span-2 btn bg-ink text-bg hover:bg-espresso mt-2 justify-center !py-3.5 disabled:opacity-60"
+                className="sm:col-span-2 btn bg-ink text-bg hover:bg-espresso mt-2 justify-center !py-3.5"
               >
-                {submitting ? 'Sending…' : 'Request appointment'}
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M5 12h14M13 5l7 7-7 7" />
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                  <path d="M20.5 3.5A10 10 0 0 0 4 17l-1.5 5 5.1-1.4A10 10 0 1 0 20.5 3.5zm-8.4 15.4a8 8 0 0 1-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3a8 8 0 1 1 6.7 3.7zm4.5-6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.7 1-.3.1-.5 0a6.6 6.6 0 0 1-3.2-2.8c-.2-.4.2-.4.6-1.2.1-.1 0-.3 0-.4l-.7-1.6c-.2-.4-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2c0 1.3 1 2.5 1.1 2.7s1.9 3 4.7 4.2a16 16 0 0 0 1.6.6 4 4 0 0 0 1.7.1 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z" />
                 </svg>
+                Request via WhatsApp
               </button>
+              <p className="sm:col-span-2 text-[12px] text-[#FBE8D6]/80 text-center -mt-1">
+                Opens WhatsApp with your details ready to send — we reply within a working day.
+              </p>
             </form>
           </div>
 
