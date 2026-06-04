@@ -20,7 +20,7 @@ const SPECIALTIES = [
   'Laser hair reduction',
   'Botox, fillers & threads',
   'Chemical peels',
-  'Sensitive skin & eczema',
+  'Psoriasis & eczema',
 ];
 
 function Check() {

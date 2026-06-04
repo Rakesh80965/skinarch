@@ -125,8 +125,8 @@ export const TREATMENTS: Record<TreatmentTab, Treatment[]> = {
     },
     {
       icon: 'leaf',
-      title: 'Eczema',
-      desc: 'Atopic dermatitis and eczema. Barrier repair, calming protocols and prescription care when needed.',
+      title: 'Psoriasis & Eczema',
+      desc: 'Psoriasis, atopic dermatitis and eczema. Barrier repair, calming protocols and prescription care when needed.',
       img: '/treatments/eczema.jpg',
     },
     {

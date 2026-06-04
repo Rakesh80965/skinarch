@@ -20,13 +20,17 @@ export function Header({ onOpenMenu }: Props) {
       className={`sticky top-0 z-40 transition-all ${blurred ? 'header-blur' : ''}`}
     >
       <div className="max-w-[1320px] mx-auto px-4 sm:px-5 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-3">
-        <a href="#top" className="flex items-center gap-2 sm:gap-2.5 min-w-0">
-          <img src="/brand/lotus.png" alt="" className="h-7 sm:h-9 w-auto shrink-0" />
-          <span className="flex sm:hidden lg:flex flex-col leading-[1.05] min-w-0">
-            <span className="text-[13px] lg:text-[15px] font-bold tracking-[-0.01em] whitespace-nowrap">
+        <a href="#top" className="flex items-center gap-2.5 sm:gap-3 min-w-0">
+          <img
+            src="/brand/lotus.png"
+            alt="Dr. Ashwini's Skin Arc logo"
+            className="h-11 sm:h-11 lg:h-12 w-auto shrink-0"
+          />
+          <span className="flex flex-col leading-[1.04] min-w-0">
+            <span className="text-[16.5px] sm:text-[17px] lg:text-[19px] font-bold tracking-[-0.01em] whitespace-nowrap">
               Dr. Ashwini's
             </span>
-            <span className="text-[13px] lg:text-[15px] font-bold tracking-[-0.01em] whitespace-nowrap">
+            <span className="text-[16.5px] sm:text-[17px] lg:text-[19px] font-bold tracking-[-0.01em] whitespace-nowrap">
               skin arc<span className="text-accent">.</span>
             </span>
           </span>
@@ -38,26 +42,26 @@ export function Header({ onOpenMenu }: Props) {
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <a
             href="tel:+917288911000"
-            className="hidden md:inline-flex btn btn-ghost !py-2 !px-3.5 text-[13px]"
+            className="hidden md:inline-flex btn btn-ghost !py-1.5 !px-3 !gap-1.5 text-[12px]"
             aria-label="Call clinic"
           >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
             </svg>
             Call
           </a>
-          <a href="#book" className="hidden sm:inline-flex btn btn-primary !py-2.5 !px-4 text-[13px] whitespace-nowrap">
+          <a href="#book" className="hidden sm:inline-flex btn btn-primary !py-1.5 !px-3.5 text-[12px] whitespace-nowrap">
             Book Consultation
           </a>
           <button
             onClick={onOpenMenu}
-            className="lg:hidden w-10 h-10 rounded-full border border-line grid place-items-center shrink-0 active:bg-line/60 transition"
+            className="lg:hidden w-9 h-9 rounded-full border border-line grid place-items-center shrink-0 active:bg-line/60 transition"
             aria-label="Menu"
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
               <path d="M3 6h18M3 12h18M3 18h18" />
             </svg>
           </button>
